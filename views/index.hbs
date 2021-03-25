@@ -1,15 +1,347 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Beacon Hostel</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="js/bootstrap.min.js">
+    <link rel="shortcut icon" type="icon/x-image" href="images/log.png">
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="w3schools.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
+<style type="text/css">
+    .icons {
+        justify-content: space-around;
+        margin-top: 5px;
+        background-color: #3a5caa;
+        padding: 5px;
+        width: 100%;
+    }
 
-<body style="background-color: blueviolet;">
-    <h2>We are in Business..</h2>
+    .fa {
+        color: white;
+    }
+
+    .icon1 i {
+        padding: 5px;
+    }
+
+    .major {
+        border-bottom: 1px solid black;
+        box-shadow: 1px 1px 20px 1px;
+        top: 0px;
+        left: 0px;
+        background-color: white;
+    }
+
+    a:hover {
+        text-decoration: none;
+    }
+
+    .nav1 a {
+        margin-left: 20px;
+        color: white;
+    }
+
+    /*.nav1{
+		padding-top:10px;
+	}*/
+    footer {
+        background-color: #3a5caa;
+    }
+</style>
+
+<body>
+    <div class="main">
+        <div class="major  sticky-top">
+            <!-- navbar-->
+            <div class="icons d-flex">
+                <div class="nav1">
+                    <a href="">Hostels</a>
+                    <a href="">Student portal</a>
+                    <a href="">Lirauniversity website</a>
+                </div>
+                <div class="icon1">
+                    <i class="fa fa-facebook"></i>
+                    <i class="fa fa-whatsapp"></i>
+                    <i class="fa fa-envelope"></i>
+                    <i class="fa fa-phone"></i>
+                </div>
+            </div>
+            <!-- narbar -->
+            <div class="nav navbar container-fluid">
+                <div class="d-flex">
+                    <div><img src="beacon log.png" style="max-width:100%;border-radius: 100%;height:90px;">
+                    </div>
+                    <div style="margin-top:20px;margin-left:5px;font-size:14px;">
+                        <h5>Beacon Hostels</h5>
+                        <p> comfort estates</p>
+                    </div>
+                </div>
+                <br>
+
+                </a>
+                <a href="/" class="w3-btn btn-success">Home</a>
+                <a href="#" class="w3-btn btn-success">News</a>
+                <a href="/booking" class="w3-btn btn-success">Book hostel</a>
+                <a href="#"><input type="text" name="search" placeholder="Search hostel">
+                </a>
+            </div>
+        </div>
+        <!--sliders-->
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block" style="height: 500px; width: 100%;" src="Lot1201-Art-Banksy-fac.jpg"
+                        alt="First slide">
+                    <div class="carousel-caption">
+                        <h3 class="display-4">Visit, Book And <br>Secure Your Hostel </h3>
+                        <button type="button" class="btn btn-outline-light btn-lg">Get Hostel</button>
+
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" style="height: 500px; width: 100%;" src="Lot1219-Burnet18_172-fac.jpg"
+                        alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" style="height: 500px; width: 100%;"
+                        src="Lot1220-Whitehaven26_246-fac.jpg" alt="Third slide">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <!--       middle section -->
+        <div class="container-fluid padding">
+            <div class=" row welcome text-center">
+                <div class="col-12">
+                    <h2 class="display-5">welcome our guest</h2>
+                </div>
+                <hr>
+                <div class="col-12">
+                    <p class="lead">
+                        lit. Dolores fugit distinctio molestias repudiandae,<br>
+                        nulla, eligendi reprehenderit eaque quisquam quam
+                        deserunt <br> temporibus explicabo ut sunt ipsam quos quod
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!--Three div section-->
+        <div class="container-fluid padding">
+            <div class="row text-center padding">
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <i class="fa fa-twitter"></i>
+                    <h3>Info</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        <br>yyjdosduhidutujiefdl hyiueianl.
+                    </p>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <i class="fa fa-home"></i>
+                    <h3>Our Aims</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        <br>
+                    </p>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <i class="fa fa-users"></i>
+                    <h3>Services</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        <br>yyjdosduhidutujiefdl hyiueianl.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!--Fixed back ground-->
+        <figure>
+            <div class="fixed-wrap">
+                <div id="fixed">
+
+                </div>
+            </div>
+        </figure>
+        <button class="fun btn btn-success " data-toggle="collapse" data-target="#emoji">click for fun</button>
+        <div id="emoji" class="collapse">
+            <div class="container-fluid padding">
+                <div class="row text-center">
+                    <div class="col-sm-6 col-md-3">
+                        <img class="gif" src="images/tenor(1).gif" alt="emoji" style="height: 80px; width: 70px;">
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <img class="gif" src="images/tenor(1).gif" alt="emoji" style="height: 80px; width: 70px;">
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <img class="gif" src="images/tenor(1).gif" alt="emoji" style="height: 80px; width: 70px;">
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <img class="gif" src="images/tenor(1).gif" alt="emoji" style="height: 80px; width: 70px;">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Our Group-->
+        <div class="container-fluid padding">
+            <div class="row welcome text-center">
+                <div class="col-12">
+                    <h3 class="display-4">Resting places</h3>
+                </div>
+                <hr>
+            </div>
+        </div>
+        <div class="container-fluid padding">
+            <div class="row padding">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img class="card-img-top" src="images/gettyimages-936399612-612x612.jpg" alt="">
+                        <div class="card-body">
+                            <h3 class="card-title">Ronnie</h3>
+                            <p class="card-text">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing
+                                elit. Harum nihil nostrum assumenda non ut accusamus
+                                autem aut necessitatibus ducimus voluptas.
+                            </p>
+                            <a class="btn btn-outline-secondary" href="#">see profile</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img class="card-img-top" src="images/gettyimages-1065524354-612x612.jpg" alt="">
+                        <div class="card-body">
+                            <h3 class="card-title">Amon</h3>
+                            <p class="card-text">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing
+                                elit. Harum nihil nostrum assumenda non ut accusamus
+                                autem aut necessitatibus ducimus voluptas.
+                            </p>
+                            <a class="btn btn-outline-secondary" href="#">see profile</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img class="card-img-top" src="images/gettyimages-1065524354-612x612.jpg" alt="">
+                        <div class="card-body">
+                            <h3 class="card-title">Amon</h3>
+                            <p class="card-text">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing
+                                elit. Harum nihil nostrum assumenda non ut accusamus
+                                autem aut necessitatibus ducimus voluptas.
+                            </p>
+                            <a class="btn btn-outline-secondary" href="#">see profile</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Two column section-->
+        <div class="container-fluid padding">
+            <div class="row padding">
+                <div class="col-md-12 col-lg-6">
+                    <h2>Project manager</h2>
+                    <p>
+                        orem ipsum dolor sit amet consectetur adipisicing elit.
+                        yyjdosduhidutujiefdl hyiueianl.
+                    </p>
+                    <p>
+                        color sit amet consectetur adipisicing elit.
+                        yyjdosduhidutujiefdl hyiueianl.
+                        color sit amet consectetur adipisicing elit.
+                        yyjdosduhidutujiefdl hyiueianl.
+                        Lorem ipsum, dolor
+                        sit amet consectetur adipisicing elit. Tenetur nulla
+                        aspernatur cupiditate exercitationem autem rem nemo,
+                        dolore veniam quasi atque. Nam quo, iste asperiores reprehenderit
+                        exercitationem natus nulla, molestias tempora aliquid
+                        minima odio saepe possimus ut tempore delectus.
+                        Saepe voluptate accusamus in. Vero voluptate sequi modi ea sit
+                        eveniet explicabo culpa tempore? Aut doloribus quidem et commodi! Autem, numquam fugiat.
+                    </p>
+                    <br>
+                </div>
+                <div class="col-lg-6">
+                    <div class="mapouter">
+                        <div class="gmap_canvas"><iframe width="600" height="300" id="gmap_canvas"
+                                src="https://maps.google.com/maps?ll=2.2509766,32.8210473&q=Lira University&t=&z=14&ie=UTF8&iwloc=&output=embed"
+                                frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>undefined<a
+                                href="undefined">undefined</a>undefined</div>
+                        <style>
+                            .mapouter {
+                                position: relative;
+                                text-align: right;
+                                height: 280px;
+                                width: 600px;
+                            }
+
+                            .gmap_canvas {
+                                overflow: hidden;
+                                background: none !important;
+                                height: 280px;
+                                width: 600px;
+                            }
+                        </style>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-4">
+        </div>
+        <!--Connect -->
+        <div class="container-fluid padding">
+
+        </div>
+        <!-- Our Footer -->
+        <footer>
+            <div class="d-flex">
+                <div class="container">
+                    <p><b>Follow us</b></p>
+                    <div class="social">
+                        <a href=""><i class="fa fa-facebook" style="color:black"></i></a>
+                        <a href=""><i class="fa fa-envelope-open" style="color:black"></i></a>
+                        <a href=""><i class="fa fa-instagram" style="color:black"></i></a>
+                        <a href=""><i class="fa fa-youtube" style="color:black"></i></a>
+                        <a href=""><i class="fa fa-google-plus" style="color:black"></i></a>
+                    </div>
+                </div>
+                <div class="container">
+                    <p><b>Address</b></p>
+                    <div>
+                        <i class="fa fa-map-marker"></i>Lira university<br>
+                        <i class="fa fa-envelope"></i>lirauni.ac.ug@yahoo.com
+
+                    </div>
+                </div>
+                <div class="container">
+                    <p><b>Comment</b></p>
+                    <div>
+                        <label>Write your comment</label><br>
+                        <textarea placeholder="Your comment"></textarea><br>
+                        <input type="submit" name="submit">
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <div>
+
 </body>
 
 </html>

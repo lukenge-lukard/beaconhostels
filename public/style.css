@@ -1,0 +1,101 @@
+body{
+  height: 100%;
+  width: 100%;
+  font-family: 'poppins',sans-serif;
+  color:#222; 
+}
+.navbar{
+  padding: .8rem;
+}
+.navbar-nav li{
+  padding-right: 20px;
+}
+.nav-link{
+  font-size: 1.2em !important;
+}
+.carousel-inner img{
+width: 100%;
+height: 100%;
+}
+.carousel-caption{
+  position: absolute;
+  top: 70%;
+  transform: translateY(-50%);
+}
+.carousel-caption h3{
+  font-size: 300%;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 20px #000;
+}
+.btn-primary{
+  background-color: #6648b1;
+  border: 1px solid #11eebc;
+}
+.btn-primary:hover{
+    border: 1px solid #563d7c;
+}
+.jumbotron{
+padding: 1rem;
+border-radius: 0;
+}
+.padding{
+  padding-bottom: 1rem;
+}
+.welcome{
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 1rem;
+}
+.welcome hr{
+  border-top: 1px solid green;
+  width: 95%;
+  margin-top: 0.3rem;
+  margin-bottom: 1rem;
+}
+.fa-twitter{
+  color: #e5d426;
+}
+.fa-home{
+   color:#563d7c
+}
+.fa-users{
+  color: #2163af;
+}
+.fa-twitter,.fa-home,.fa-users{
+  font-size: 3rem;
+  margin: 1rem;
+}
+.fun{
+  margin-left:600px;
+  padding:5px;
+  margin-bottom: 1rem;
+}
+.gif{
+  max-width: 100%;
+}
+
+ 
+
+ footer{
+   background-color: #3f3f3f;
+   color:#d5d5d5;
+   padding-top: 2rem;
+ }
+ hr.light{
+   border-top: 1px solid #d5d5d5;
+   width: 75%;
+   margin-top: .8rem;
+   margin-bottom: 1rem;
+   box-shadow: .5px .1px .1px red;
+ }
+ hr.light-10{
+      border-top: 1px solid #d5d5d5;
+   width: 100%;
+   margin-top: .8rem;
+   margin-bottom: 1rem;
+   box-shadow: .5px .1px .1px red;
+ }
+ .social a{
+  padding:5px;
+  font-size:20px;
+ }
